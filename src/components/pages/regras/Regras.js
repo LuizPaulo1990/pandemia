@@ -1,5 +1,12 @@
+import styles from './Regras.module.css';
+import RegrasServidor from './components/RegrasServidor';
+
 function Regras () {
-    return <h1>Regras</h1>
+    return(
+        <section className={styles.regrasContent}>
+           <RegrasServidor />
+        </section>
+    )
 }
 
 export default Regras;
