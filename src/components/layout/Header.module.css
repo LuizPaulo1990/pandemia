@@ -1,5 +1,12 @@
+
 .headerImg {
     background-image: url('../../img/conan_exiles.jpg');
     background-size: cover;
-    height: 250px;
+    background-position: 90% 18%;
+    opacity: 80%;
+    width: 800px;
+    height: 180px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 30px;
+    
 }
