@@ -1,6 +1,6 @@
 import styles from './Navbar.module.css';
 import { Link } from 'react-router-dom';
-import {GiCastle, GiSwordsEmblem, GiBrute, GiSlaveryWhip, GiBleedingEye, GiAngelWings, GiOpenBook} from 'react-icons/gi'
+import {GiCastle, GiSwordsEmblem, GiBrute, GiSlaveryWhip, GiBleedingEye, GiAngelWings, GiCoins} from 'react-icons/gi'
 
 function Navbar(){
     return(
@@ -13,10 +13,10 @@ function Navbar(){
                         </Link> 
                     </li>
                     <li className={styles.itens}>
-                        <Link to='/regras'>
-                            Regras
-                            <span> <GiOpenBook/></span>
-                        </Link> 
+                        <Link to='/precos'>
+                            Preços
+                            <span> <GiCoins/></span>
+                        </Link>
                     </li>
                     <li className={styles.itens}>
                         <Link to='/itens'>

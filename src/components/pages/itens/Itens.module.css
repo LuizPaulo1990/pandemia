@@ -1,14 +1,14 @@
-.regrasContent{
+.contentItens{
     display: flex;
-    justify-content: center;
-    text-align: center;
+    flex-wrap: wrap;
+
     width: 600px;
-    height: 100%;
     margin: auto;
     position: relative;
     top: -340px;
     right: -97px;
-    background-color:  antiquewhite;
+    background-image:  url('../../../img/pergaminho3.jfif');
+    background-size: cover;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.396);
  

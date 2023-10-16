@@ -5,12 +5,11 @@
 
 
 
-body {
+html {
   max-width: 2000px;
   display: flex;
   justify-content: center;
-  background-image: url('./img/conanbg5.PNG');
+  background-image: url('./img/conanbg2.jpg');
   background-size: cover;
-  background-position-x: -500px;
   background-repeat: no-repeat;  
 }

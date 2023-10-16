@@ -1,0 +1,48 @@
+.botaoItens{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 60px;
+    background-image: url(../../../../img/pergaminho.jpg);
+    border-radius: 20px;
+    margin: 20px 20px 0px 70px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.391);
+    transition: 1s;
+    
+}
+
+.botaoItens a{
+    display: none;
+    text-decoration: none;
+    font-size: 1.6em;
+    transition: 2s;
+}
+
+.botaoItens span {
+    font-size: 2em;
+    color: black;
+    position: relative;
+    top: 5px;
+    margin-left: 5px;
+    transition: 2s;
+}
+
+.botaoItens:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.773);
+    
+}
+
+.botaoItens:hover a{
+    
+    display: contents;
+    color: black;
+}
+
+.botaoItens:hover span{
+    display: none;
+    font-size: 2.5em;
+}
