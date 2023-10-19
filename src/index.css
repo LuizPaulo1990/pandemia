@@ -6,10 +6,10 @@
 
 
 html {
-  max-width: 2000px;
   display: flex;
   justify-content: center;
   background-image: url('./img/conanbg2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -50px;
 }

@@ -17,16 +17,16 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <MenuLateral/>
-        <Routes>
-          <Route exect path='/' element={<Home />}></Route>
-          <Route exect path='/precos' element={<TabelaPrecos />}></Route>
-          <Route exect path='/itens' element={<Itens />}></Route>
-          <Route exect path='/pets' element={<Pets />}></Route>
-          <Route exect path='/lacaios' element={<Lacaios />}></Route>
-          <Route exect path='/contato' element={<Contato />}></Route>
-          <Route exect path='/adm' element={<Adm />}></Route>
-        </Routes>
+        <MenuLateral />
+          <Routes>
+            <Route exect path='/' element={<Home />}></Route>
+            <Route exect path='/precos' element={<TabelaPrecos />}></Route>
+            <Route exect path='/itens' element={<Itens />}></Route>
+            <Route exect path='/pets' element={<Pets />}></Route>
+            <Route exect path='/lacaios' element={<Lacaios />}></Route>
+            <Route exect path='/contato' element={<Contato />}></Route>
+            <Route exect path='/adm' element={<Adm />}></Route>
+          </Routes>
         <Footer />
       </Router>
 

@@ -1,5 +1,7 @@
 .rodape{
     background-image: url('../../img/pergaminho3.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
