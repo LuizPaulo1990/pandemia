@@ -10,6 +10,9 @@
 
 @media screen and (max-width: 450px) {
 
+    .menu{
+        display: none;
+    }
    
 
 }

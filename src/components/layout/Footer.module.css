@@ -38,3 +38,15 @@ label{
 .copyRight{
     color: black;
 }
+
+@media screen and (max-width: 450px) {
+
+    .rodape{
+        width: 250px;
+        height: 100px;
+        position: relative;
+        top: 20px;
+        right: -34%;
+    }
+
+}

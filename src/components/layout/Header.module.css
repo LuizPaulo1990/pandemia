@@ -14,5 +14,8 @@
     .headerImg{
         width: 500px;
         margin: auto;
+        position: relative;
+        top: 20px;
+        left: 50px;
     }
 }

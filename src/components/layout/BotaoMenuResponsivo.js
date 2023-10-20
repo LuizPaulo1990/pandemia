@@ -1,8 +1,8 @@
 import styles from './BotaoMenuResponsivo.module.css';
-import {RiMenuAddLine} from 'react-icons/ri';
+import {GiLockedChest} from 'react-icons/gi';
 
 function BotaoMenuResponsivo() {
-    return<button type='button' className={styles.menuBtn}><RiMenuAddLine/></button>
+    return<button type='button' className={styles.menuBtn}><GiLockedChest/></button>
 }
 
 export default BotaoMenuResponsivo;
