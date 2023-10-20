@@ -11,6 +11,7 @@ import Lacaios from './components/pages/lacaios/Lacaios';
 import Contato from './components/pages/contato/Contato';
 import Adm from './components/pages/adm/Adm';
 import MenuLateral from './components/layout/MenuLateral';
+import BotaoMenuResponsivo from './components/layout/BotaoMenuResponsivo';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Router>
         <Header />
         <MenuLateral />
+        <BotaoMenuResponsivo/>
           <Routes>
             <Route exect path='/' element={<Home />}></Route>
             <Route exect path='/precos' element={<TabelaPrecos />}></Route>

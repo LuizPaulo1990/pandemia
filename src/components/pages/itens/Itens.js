@@ -1,6 +1,6 @@
 import BotaoItens from './components/BotaoItens';
 import styles from './Itens.module.css';
-import { GiSwordWound, GiCrocSword, GiMagicAxe, GiSharpAxe, GiSpearFeather, GiSpears, GiFlangedMace, GiSpikedMace, GiTwoHandedSword, GiChakram, GiWolverineClaws, GiDaggers,GiCrossedSwords, GiKatana, GiBroadDagger, GiBowArrow, GiAttachedShield } from 'react-icons/gi';
+import { GiSwordWound, GiCrocSword, GiMagicAxe, GiSharpAxe, GiSpearFeather, GiSpears, GiFlangedMace, GiSpikedMace, GiTwoHandedSword, GiChakram, GiWolverineClaws, GiDaggers,GiCrossedSwords, GiKatana, GiBroadDagger, GiBowArrow, GiAttachedShield, GiAbdominalArmor } from 'react-icons/gi';
 
 
 function Itens() {
@@ -23,6 +23,7 @@ function Itens() {
             <BotaoItens text='punhal perfurante 2mãos'emblema={<GiBroadDagger/>}/>
             <BotaoItens text='arco' emblema={<GiBowArrow/>}/>
             <BotaoItens text='escudo' emblema={<GiAttachedShield/>}/>
+            <BotaoItens text='armaduras' emblema={<GiAbdominalArmor/>}/>
         </div>
     )
 }

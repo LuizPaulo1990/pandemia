@@ -1,4 +1,4 @@
-.menu{
+.menu {
     width: 22%;
     height: 340px;
     background-image: url('../../img/pergaminho3.jfif');
@@ -6,4 +6,10 @@
     background-position-x: -40px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.396);
+}
+
+@media screen and (max-width: 450px) {
+
+   
+
 }
