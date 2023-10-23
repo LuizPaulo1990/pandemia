@@ -49,3 +49,20 @@
     color: red;
     font-size: 1.4em;
 }
+
+@media screen and (max-width: 450px) {
+    
+    .mainContent{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+        position: relative;
+        top: 0px;
+        right: -40px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.396);
+     
+    }
+}

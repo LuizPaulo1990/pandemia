@@ -18,7 +18,7 @@ function Itens() {
             <BotaoItens  text='chakram 2mãos' emblema={<GiChakram/>}/>
             <BotaoItens text='garra 2mãos' emblema={<GiWolverineClaws/>}/>
             <BotaoItens text='adaga 2mãos' emblema={<GiDaggers/>}/>
-            <BotaoItens text='machado/espada duplo(a)' emblema={<GiCrossedSwords/>}/>
+            <BotaoItens text='armas duplas' emblema={<GiCrossedSwords/>}/>
             <BotaoItens text='katana' emblema={<GiKatana/>}/>
             <BotaoItens text='punhal perfurante 2mãos'emblema={<GiBroadDagger/>}/>
             <BotaoItens text='arco' emblema={<GiBowArrow/>}/>
