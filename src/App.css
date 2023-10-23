@@ -3,6 +3,10 @@
   font-family: 'Young Serif', serif;
 }
 
-
+@media screen and (max-width: 450px) {
+  .App{
+    width: 300px;
+  }
+}
 
 
