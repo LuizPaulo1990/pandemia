@@ -6,6 +6,7 @@ function MainContent() {
     return (
         <article className={styles.containerContent}>
             <h1 className={styles.mainTitle}>Bem vindo ao Pandemia <GiFire/> </h1>
+            <h1 className={styles.mainSubTittle}>Ativo desde <span className={styles.creationDate}>2020!</span></h1>
             <h2 className={styles.subTitle}>Bem-Vindos ao Reino Brutal de Conan Exiles!</h2>
             <p className={styles.content}>Seja muito bem-vindo(a) ao nosso servidor de Conan Exiles! Estamos empolgados em recebê-lo neste mundo brutal e desafiador, onde a sobrevivência é a chave para a glória. Este é o lugar onde você enfrentará os perigos da terra exilada de Hyboria, forjará alianças poderosas e moldará o seu próprio destino.</p>
             <h2 className={styles.subTitle}>Explore o Desconhecido</h2>
